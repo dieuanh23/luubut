@@ -361,11 +361,22 @@ p{
     .mid{
         height: 100%;
     }
+    .bgmo{
+        width: 90%;
+    }
 }
 
 @media screen and (max-height:870px){
     .bgmo{
         height: 95%;
+    }
+    .mid{
+        height: 100%;
+    }
+}
+@media screen and (max-width:840px){
+    .bgmo{
+        height: 100%;
     }
     .mid{
         height: 100%;
